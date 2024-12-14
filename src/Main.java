@@ -1,5 +1,6 @@
 import javafx.application.Application;
 import javafx.scene.Scene;
+import javafx.scene.control.ListView;
 import javafx.scene.control.Button;
 import javafx.scene.control.Slider;
 import javafx.scene.control.TextField;
@@ -32,6 +33,7 @@ public class Main extends Application {
 
 
         StackPane layout = new StackPane();
+
 
         layout.getChildren().add(bill);
         layout.getChildren().add(tip);
